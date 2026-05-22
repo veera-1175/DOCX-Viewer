@@ -1,45 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>MCA RECORDS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOCX Viewer</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>MCA RECORDS</h1>
+<header class="top">
+  <h1>DOCX Viewer</h1>
+  <p class="tagline">Preview Word documents in the browser</p>
+</header>
+
 <div class="buttons">
-<button onclick="openDoc('docs/AIML.docx')">AIML</button>
-<button onclick="openDoc('docs/AOS.docx')">AOS</button>
-<button onclick="openDoc('docs/LLM.docx')">LLM</button>
-<button onclick="openDoc('docs/Prompt.docx')">PROMPT</button>
-<button onclick="openDoc('docs/PYTHON.docx')">PYTHON</button>
-<button onclick="openDoc('docs/IOT.docx')">IOT</button>
+<button type="button" onclick="openDoc('docs/AIML.docx')">AIML</button>
+<button type="button" onclick="openDoc('docs/AOS.docx')">AOS</button>
+<button type="button" onclick="openDoc('docs/LLM.docx')">LLM</button>
+<button type="button" onclick="openDoc('docs/Prompt.docx')">Prompt</button>
+<button type="button" onclick="openDoc('docs/PYTHON.docx')">Python</button>
+<button type="button" onclick="openDoc('docs/IOT.docx')">IoT</button>
 </div>
 
 <div class="viewer">
-<iframe id="viewer"></iframe>
+<iframe id="viewer" title="Document preview"></iframe>
 </div>
 
 <script>
-
-function openDoc(file){
-
-const url = window.location.origin + "/" + file;
-
-document.getElementById("viewer").src =
-"https://view.officeapps.live.com/op/embed.aspx?src=" + encodeURIComponent(url);
-
+function openDoc(file) {
+  const url = window.location.origin + "/" + file;
+  document.getElementById("viewer").src =
+    "https://view.officeapps.live.com/op/embed.aspx?src=" + encodeURIComponent(url);
 }
 </script>
 
 </body>
-
 </html>
-
-
-
-
-
-
-
