@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MCA RECORDS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>MCA RECORDS</h1>
+<div class="buttons">
+<button onclick="openDoc('docs/AIML.docx')">AIML</button>
+<button onclick="openDoc('docs/AOS.docx')">AOS</button>
+<button onclick="openDoc('docs/LLM.docx')">LLM</button>
+<button onclick="openDoc('docs/Prompt.docx')">PROMPT</button>
+<button onclick="openDoc('docs/PYTHON.docx')">PYTHON</button>
+<button onclick="openDoc('docs/IOT.docx')">IOT</button>
+</div>
+
+<div class="viewer">
+<iframe id="viewer"></iframe>
+</div>
+
+<script>
+
+function openDoc(file){
+
+const url = window.location.origin + "/" + file;
+
+document.getElementById("viewer").src =
+"https://view.officeapps.live.com/op/embed.aspx?src=" + encodeURIComponent(url);
+
+}
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
