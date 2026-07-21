@@ -8,7 +8,7 @@
 
 > Open `.docx` files in the browser with one click — no desktop Word, no upload-to-random-site friction. Built around Microsoft’s Office Online embed viewer.
 
-Built by **[veera](https://github.com/veera-1175)**.
+Built by **[Veera](https://github.com/veera-1175)**.
 
 ---
 
@@ -102,6 +102,6 @@ DOCX-Viewer/
 
 ## License
 
-MIT © [veera](https://github.com/veera-1175)
+MIT © [Veera](https://github.com/veera-1175)
 
 **DOCX-Viewer** — Word previews without the install.
