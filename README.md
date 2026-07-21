@@ -7,8 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > Open `.docx` files in the browser with one click — no desktop Word, no upload-to-random-site friction. Built around Microsoft’s Office Online embed viewer.
-
-Built by **[Veera](https://github.com/veera-1175)**.
+> Built by [Veera](https://github.com/veera-1175).
 
 ---
 
