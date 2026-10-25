@@ -5,7 +5,7 @@
   --accent-hover: #5ba0ff;
   --text: #e8eef7;
   --muted: #8fa3bf;
-}
+
 
 * {
   box-sizing: border-box;
@@ -23,7 +23,7 @@ body
 
 .top {
   padding: 2rem 1rem 0.5rem;
-}
+
 
 .top h1 {
   margin: 0;
